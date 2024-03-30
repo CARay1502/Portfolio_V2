@@ -1,0 +1,159 @@
+/*  */
+/* PERSONAL_PORTFOLIO_V2 STYLESHEET BY CHRISTIAN RAY */
+/* ----UNIVERSAL----- */
+html {
+    background-color: rgb(59, 59, 59);
+}
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* TEXT RULES*/
+    color: white;
+    font-family: Montserrat;
+    text-align: center;
+    text-wrap: nowrap;    
+}
+h1 {
+    font-size: 200%;
+}
+h2 {
+    font-size: 200%;
+}
+
+/* -----NAV-BAR AND HEADER----- */
+header {
+    display: inline-flex;
+    align-items: center;
+    border-radius: inherit;
+    position: fixed;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* -----NAVIGATION BAR----- */
+.header-name {
+    width: 40%;
+    text-align: left;
+    padding-left: 20px;
+    font-size: x-large;
+}
+.header-name:hover {
+    background: -webkit-linear-gradient(#1248dd, #a30fa3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+.nav-bar {
+    width: 60%;
+    text-align: right;
+    padding-right: 40px;
+}
+.nav-bar-ul {
+    display: inline-flex;
+    list-style-type: none;
+    border-radius: 5px;
+    
+}
+li {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    text-shadow: 2px 2px 4px;
+    width: 70px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+li .not-active:hover {
+    background-color: black;
+    padding: 8px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.active {   /* ACTIVE PAGE STYLING */
+    background-color: rgb(19, 19, 19);
+    padding: 8px;
+    border-radius: 5px;
+    cursor:default;
+}
+
+/* -----BODY STYLING----- */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* BODY BACKGROUND W. DOTS  */
+    margin: 8px;
+    height: 100vh;
+    border-radius: 8px;
+    background-color: rgb(20, 20, 20);
+    background-image: radial-gradient(rgb(48, 48, 48) 1px, transparent 0);
+    background-size: 20px 20px;
+
+  }
+
+/* -----HOME PAGE----- */
+    /* HERO SECTION */
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+.hero-info {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hero-text-highlight {
+    background: -webkit-linear-gradient(#1248dd, #a30fa3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-continue {
+    padding-top: 150px;
+}
+/*
+.hero-card {
+    padding: 50px;
+}
+.hero-terminal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+    border-radius: 8px;
+    width: 60%;
+    height: max-content;
+    box-shadow: 20px;
+}
+.hero-terminal-info {
+    padding: 5px;
+    font-family: source code pro;
+    font-size:medium;
+    line-height: 15px;
+    text-wrap: wrap;
+}
+*/
+
+/* -----SKILLS PAGE----- */
+
+
+/* -----ABOUT PAGE----- */
+    /* PROFILE PIC & BIOGRAPHY */
+.about-profile-pic {
+    margin-top: 100px;
+}
+.about-introduction {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
