@@ -42,7 +42,7 @@ header {
     background: -webkit-linear-gradient(#1248dd, #a30fa3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    cursor: default;
+    cursor: pointer;
 }
 .nav-bar {
     width: 60%;
@@ -74,12 +74,13 @@ li .not-active:hover {
     padding: 8px;
     border-radius: 5px;
     cursor:pointer;
+    color: rgb(192, 192, 192);
 }
 .active {   /* ACTIVE PAGE STYLING */
-    background-color: rgb(19, 19, 19);
     padding: 8px;
     border-radius: 5px;
     cursor:default;
+    color: rgb(192, 192, 192);
 }
 
 /* -----BODY STYLING----- */
@@ -117,7 +118,32 @@ body {
     -webkit-text-fill-color: transparent;
 }
 .hero-continue {
-    padding-top: 150px;
+    padding-top: 100px;
+}
+.hero-continue-buttons {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.github-button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-shadow: none;
+    border-style: solid;
+    border-color: white;
+    border-radius: 17px;
+    padding: 15px;
+}
+.linkedin-button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-shadow: none;
+    border-style: solid;
+    border-color: white;
+    border-radius: 17px;
+    padding: 15px;
 }
 /*
 .hero-card {
